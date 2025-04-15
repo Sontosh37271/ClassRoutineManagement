@@ -5,7 +5,7 @@ import axios from 'axios';
 import Message from './components/message';
 import MovieCard from './components/MovieCard';
 
-const API_URL = 'http://www.omdbapi.com?apikey=f7ce2a4f'
+const API_URL = 'https://www.omdbapi.com?apikey=f7ce2a4f'
 
 const App =()=> {
   const [movies,setMovies]=useState([]);
